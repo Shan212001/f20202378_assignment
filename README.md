@@ -3,9 +3,8 @@
 ## Input Data (CSV):
 - The CSV file contains textual descriptions (e.g., product information, competitor strategies, and technology trends) relevant to the EV charging domain.
 - Each row includes:
--- Description: A snippet of text providing details about EV charging technologies, pricing strategies, and regional presence.
--- Domain Knowledge Base (JSON):
-- The JSON file provides pre-defined categories, entities, and keywords to enhance entity extraction and multi-label classification.
+1. Description: A snippet of text providing details about EV charging technologies, pricing strategies, and regional presence.
+2. Domain Knowledge Base (JSON): The JSON file provides pre-defined categories, entities, and keywords to enhance entity extraction and multi-label classification.
 ## Categories include:
 - Competitors: EV charging-related companies and organizations (e.g., Tesla Supercharger, ChargePoint).
 - Features: Key attributes of EV charging infrastructure (e.g., charging speed, battery swapping).
