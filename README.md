@@ -12,6 +12,32 @@
 4. Regions: Geographical regions of interest (e.g., North America, Europe).
 5. Sectors: Industries impacted by or involved in EV charging (e.g., Technology, Energy).
 
+# SAMPLE OF THE TASK
+
+## input 
+```bash
+Description: "Tesla Supercharger leads the EV charging network with unparalleled charging speed and a vast network across North America."
+```
+
+## input 
+```bash
+{
+  "competitors": ["Tesla Supercharger"],
+  "features": ["charging speed", "charging network coverage"],
+  "regions": ["North America"]
+}
+```
+
+## input 
+```bash
+{
+  "Predicted Labels": ["Competitors", "Features", "Regions"],
+  "Extracted Entities": ["Tesla Supercharger", "charging speed", "North America"],
+  "Summary": "Tesla Supercharger leads the EV charging network with unparalleled charging speed."
+}
+```
+
+
 
 # Task 1: Data Preparation & Multi-Label Text Classification
 
