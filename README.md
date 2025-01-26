@@ -19,7 +19,7 @@
 Description: "Tesla Supercharger leads the EV charging network with unparalleled charging speed and a vast network across North America."
 ```
 
-## input 
+## extra ction for json 
 ```bash
 {
   "competitors": ["Tesla Supercharger"],
@@ -28,7 +28,7 @@ Description: "Tesla Supercharger leads the EV charging network with unparalleled
 }
 ```
 
-## input 
+## output 
 ```bash
 {
   "Predicted Labels": ["Competitors", "Features", "Regions"],
