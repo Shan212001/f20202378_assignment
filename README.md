@@ -1,22 +1,8 @@
-# DATASET
-
-## Input Data (CSV):
-- The CSV file contains textual descriptions (e.g., product information, competitor strategies, and technology trends) relevant to the EV charging domain.
-- Each row includes: Description: A snippet of text providing details about EV charging technologies, pricing strategies, and regional presence.
-
-## Domain Knowledge Base (JSON): The JSON file provides pre-defined categories, entities, and keywords to enhance entity extraction and multi-label classification.
-- Categories include:
-1. Competitors: EV charging-related companies and organizations (e.g., Tesla Supercharger, ChargePoint).
-2. Features: Key attributes of EV charging infrastructure (e.g., charging speed, battery swapping).
-3. Pricing Keywords: Keywords associated with pricing strategies and cost optimization (e.g., cost-effective charging, competitive pricing).
-4. Regions: Geographical regions of interest (e.g., North America, Europe).
-5. Sectors: Industries impacted by or involved in EV charging (e.g., Technology, Energy).
-
 # SAMPLE OF THE TASK
 
 ## Input 
 ```bash
-Description: "Tesla Supercharger leads the EV charging network with unparalleled charging speed and a vast network across North America."
+String: "Tesla Supercharger leads the EV charging network with unparalleled charging speed and a vast network across North America."
 ```
 
 ## Extraction for json 
@@ -37,6 +23,22 @@ Description: "Tesla Supercharger leads the EV charging network with unparalleled
 }
 ```
 
+---
+# Model breakdown (TASK WISE- AS PER DOCUMENT)
+
+# DATASET
+
+## Input Data (CSV):
+- The CSV file contains textual descriptions (e.g., product information, competitor strategies, and technology trends) relevant to the EV charging domain.
+- Each row includes: Description: A snippet of text providing details about EV charging technologies, pricing strategies, and regional presence.
+
+## Domain Knowledge Base (JSON): The JSON file provides pre-defined categories, entities, and keywords to enhance entity extraction and multi-label classification.
+- Categories include:
+1. Competitors: EV charging-related companies and organizations (e.g., Tesla Supercharger, ChargePoint).
+2. Features: Key attributes of EV charging infrastructure (e.g., charging speed, battery swapping).
+3. Pricing Keywords: Keywords associated with pricing strategies and cost optimization (e.g., cost-effective charging, competitive pricing).
+4. Regions: Geographical regions of interest (e.g., North America, Europe).
+5. Sectors: Industries impacted by or involved in EV charging (e.g., Technology, Energy).
 
 
 # Task 1: Data Preparation & Multi-Label Text Classification
