@@ -14,12 +14,12 @@
 
 # SAMPLE OF THE TASK
 
-## input 
+## Input 
 ```bash
 Description: "Tesla Supercharger leads the EV charging network with unparalleled charging speed and a vast network across North America."
 ```
 
-## extra ction for json 
+## Extraction for json 
 ```bash
 {
   "competitors": ["Tesla Supercharger"],
@@ -28,7 +28,7 @@ Description: "Tesla Supercharger leads the EV charging network with unparalleled
 }
 ```
 
-## output 
+## Output 
 ```bash
 {
   "Predicted Labels": ["Competitors", "Features", "Regions"],
