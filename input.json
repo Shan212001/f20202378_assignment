@@ -1,0 +1,33 @@
+{
+    "competitors": [
+        "Tesla Supercharger", "ChargePoint", "ABB", "Siemens", "Rivian", 
+        "Volkswagen", "NIO", "CharIN", "Blink Network", "EVgo", 
+        "Electrify America", "Shell Recharge", "Hyundai", "Ford", 
+        "BP Chargers", "Lucid Motors", "General Motors", "Porsche", 
+        "BMW", "Rimac", "Xpeng", "Kia", "Stellantis", "Jaguar", 
+        "Polestar", "Great Wall Motors", "Tata Motors", "Waymo", 
+        "Nikola Corporation", "Renault", "NIO Power", "CATL", 
+        "Lightning eMotors", "Arrival", "BYD", "Proterra", 
+        "Lucid Air", "Canoo", "Fisker", "WM Motor", "Zero Motorcycles", 
+        "ORA", "Lordstown Motors", "Vinfast", "SK Innovation", 
+        "Faraday Future", "Li Auto", "Workhorse Group"
+    ],
+    "features": [
+        "charging speed", "grid integration", "infrastructure scalability", 
+        "battery management", "charging network coverage", "smart charging",
+        "charging infrastructure", "battery swapping", "standardization protocols",
+        "advanced charging solutions", "comprehensive charging ecosystems"
+    ],
+    "pricing_keywords": [
+        "cost-effective charging", "infrastructure investment", 
+        "total ownership cost", "charging network expansion",
+        "affordable solutions", "competitive pricing",
+        "cost-effective infrastructure", "pricing strategies"
+    ],
+    "regions": [
+        "North America", "Europe", "Asia", "South America", "Africa"
+    ],
+    "sectors": [
+        "Technology", "Energy", "Automotive", "Transportation", "Logistics"
+    ]
+}
